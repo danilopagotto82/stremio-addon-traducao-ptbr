@@ -32,8 +32,7 @@ const manifest = {
     configurationRequired: false
   },
   background: null,
-  logo: null,
-  encryptionSecret: process.env.JWT_SECRET || undefined
-};
+  logo: 'https://stremio-addon-traducao-ptbr-js1r.onrender.com/logo.png',
+  };
 
 module.exports = manifest;
